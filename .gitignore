@@ -361,3 +361,29 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# Custom folders to ignore 
+Archive/Success/ 
+Archive/UnSuccess/ 
+Audit/ 
+Error/ 
+Input/ 
+Master/ 
+Output/ 
+Report/ 
+Specification/ 
+  
+# Custom file types to ignore 
+*.bak 
+*.tmp 
+*.xls 
+*.xlsx 
+*.txt 
+*.doc 
+*.docs 
+*.pdf 
+*.log 
+*.zip 
+ 
+# But not this specific Excel file 
+!/Validation/Validation.xls 
